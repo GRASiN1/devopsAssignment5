@@ -1,5 +1,14 @@
 # Node.js
+# ignore node_modules
+./NodeFrontend/node_modules/
 node_modules/
+# ignore build
+./NodeFrontend/build/
+# ignore dist
+./NodeFrontend/dist/
+# ignore coverage
+./NodeFrontend/coverage/
+
 npm-debug.log
 yarn-debug.log
 yarn-error.log

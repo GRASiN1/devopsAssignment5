@@ -10,7 +10,7 @@ const port = 3000;
 // Validate environment variables
 const backendUrl = process.env.BACKEND_URL;
 if (!backendUrl) {
-  console.error("Error: BACKEND_URL environment variable is not set");
+  console.log("Error: BACKEND_URL environment variable is not set");
   process.exit(1);
 }
 
